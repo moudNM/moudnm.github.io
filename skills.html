@@ -1,207 +1,359 @@
 <!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<html lang="zxx">
     <head>
-        <!-- Mobile Specific Meta -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <!-- Favicon-->
-        <link rel="shortcut icon" href="img/fav.png">
-        <!-- Author Meta -->
-        <meta name="author" content="colorlib">
-        <!-- Meta Description -->
-        <meta name="description" content="">
-        <!-- Meta Keyword -->
-        <meta name="keywords" content="">
-        <!-- meta character set -->
-        <meta charset="UTF-8">
-        <!-- Site Title -->
         <title>Nur Muhammad</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Nur Muhammad, Moud, portfolio">
+        <meta name="keywords" content="Nur Muhammad, Moud, portfolio, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link href="img/bg-img/icon.ico" rel="shortcut icon"/>
 
-        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-        <!--
-CSS
-============================================= -->
-        <link rel="stylesheet" type="text/css" href="css/linearicons.css">
-			<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-			<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
-			<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">				
-			<link rel="stylesheet" type="text/css" href="css/nice-select.css">							
-			<link rel="stylesheet" type="text/css" href="css/animate.min.css">
-			<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">				
-			<link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css?family=Lemonada:400,700&display=swap" rel="stylesheet">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="css/fullpage.min.css"/>
+        <link rel="stylesheet" href="css/magnific-popup.css"/>
+
+        <!-- Main Stylesheets -->
+        <link rel="stylesheet" href="css/style.css"/>
+
+
+        <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
     </head>
-    <body>	
-        <header id="header">
-            <div class="container main-menu">
-                <div class="row align-items-center justify-content-between d-flex">
-                    <div id="logo">
-                        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
+    <body class="home-page">
+        <!-- Page Preloder -->
+        <div id="preloder">
+            <div class="loader"></div>
+        </div>
+
+       <!-- Header Section -->
+        <header class="header-section">
+            <div class="header-warp">
+                <!-- logo -->
+                <a href="index.html" class="site-logo">
+                   <div class="left-margin text-white"> <h3>MOUD</h3></div>
+                </a>
+
+                <div class="nav-switch">
+                    <i class="fa fa-list"></i>
+                </div>
+                
+                <div class="header-social">
+                    <a href="https://www.linkedin.com/in/nur-muhd" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://github.com/moudNM" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="mailto:moud@engineer.com?Subject=Hello" target="_blank"><i class="fa fa-envelope"></i></a>
+                </div>
+                <!-- menu -->
+                <ul class="main-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- Header Section end-->
+
+        <div id="fullpage">
+            <!-- Hero section -->
+            <div class="section fp-auto-height" id="hero-section">
+
+                <!-- Languages section -->
+                <div class="testimonial-section set-bg" data-setbg="./img/bg-img/b3a.png">
+
+                    <div class="sp-container">
+                        <div class="new-hero-content">
+                            <div class="head-section text-white">
+                                <div class="skills-header"><h2>Skills</h2></div> 
+
+                                <div class="testimonial-content">
+
+                                    <h2>Computing Languages</h2>
+
+                                    <div class="hero-content skill-class">
+
+                                        <div class ="skill-main">
+                                            <div class="skill-holder skill-elem">
+
+                                                <div class="skill-elem right"> <img src="./img/logo/java.png"></div>
+                                                <div class="skill-elem right">Java</div>
+                                            </div>
+                                            <div class="skill-elem new-bar">
+                                                <div class="new-bar-progress" style="width:100%"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class ="skill-main">
+                                            <div class="skill-holder skill-elem">
+                                                <div class="skill-elem right"> <img src="./img/logo/python.png" width="50px"></div>
+                                                <div class="skill-elem right">Python</div>
+
+                                            </div>
+                                            <div class="skill-elem new-bar">
+                                                <div class="new-bar-progress" style="width:100%"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class ="skill-main">
+                                            <div class="skill-holder skill-elem">
+
+                                                <div class="skill-elem right"> <img src="./img/logo/c-sharp.png" width="50px"></div>
+                                                <div class="skill-elem right">C#</div>
+                                            </div>
+                                            <div class="skill-elem new-bar">
+                                                <div class="new-bar-progress" style="width:85%"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class ="skill-main">
+                                            <div class="skill-holder skill-elem">
+                                                <div class="skill-elem right"> <img src="./img/logo/swift.png" width="50px"></div>
+                                                <div class="skill-elem right">Swift</div>
+
+                                            </div>
+                                            <div class="skill-elem new-bar">
+                                                <div class="new-bar-progress" style="width:80%"></div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
                     </div>
-                    <nav id="nav-menu-container">
-                        <ul class="nav-menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="aboutMe.html">About</a></li>
-                            <li><a href="skills.html" class="menu-active">Skills</a></li>
-                            <li><a href="projects.html">Projects</a></li>
-                               					          		          
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav><!-- #nav-menu-container -->		    		
                 </div>
             </div>
-        </header><!-- #header -->
 
-        <!-- start banner Area -->
-        <section class="about-banner">
-            <div class="container">				
-                <div class="row d-flex align-items-center justify-content-center">
+            <!--Languages section end-->
 
+            <!-- Web section -->
+            <div class="testimonial-section set-bg" data-setbg="./img/bg-img/b3b.png">
+                <div class="container">
+
+                    <div class="testimonial-content">
+
+                        <h2>Web Development</h2>
+
+                        <div class="hero-content skill-class">
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+
+                                    <div class="skill-elem right"> <img src="./img/logo/html.png" width="50px"></div>
+                                    <div class="skill-elem right">HTML</div>
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:100%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+                                    <div class="skill-elem right"> <img src="./img/logo/css.png" width="50px"></div>
+                                    <div class="skill-elem right">CSS</div>
+
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:85%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+
+                                    <div class="skill-elem right"> <img src="./img/logo/javascript.png" width="50px"></div>
+                                    <div class="skill-elem right">Javascript</div>
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:75%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+                                    <div class="skill-elem right"> <img src="./img/logo/flask.png" width="50px"></div>
+                                    <div class="skill-elem right">Flask</div>
+
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:85%"></div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--Web section end-->
+
+            <!-- Data section -->
+            <div class="testimonial-section set-bg" data-setbg="./img/bg-img/b3c.png">
+                <div class="container">
+
+                    <div class="testimonial-content text-white">
+
+                        <h2>Data</h2>
+
+                        <div class="hero-content skill-class">
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+
+                                    <div class="skill-elem right"> <img src="./img/logo/mysql.png" width="50px"></div>
+                                    <div class="skill-elem right">MySQL</div>
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:100%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+                                    <div class="skill-elem right"> <img src="./img/logo/pandas.png" width="50px"></div>
+                                    <div class="skill-elem right">Pandas</div>
+
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+
+                                    <div class="skill-elem right"> <img src="./img/logo/tensorflow.png" width="50px"></div>
+                                    <div class="skill-elem right">Tensorflow</div>
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:65%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--data section end-->
+
+            <!-- Tools section -->
+            <div class="testimonial-section set-bg" data-setbg="./img/bg-img/b3d.png">
+                <div class="container">
+
+                    <div class="testimonial-content">
+
+                        <h2>Tools</h2>
+
+                        <div class="hero-content skill-class">
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+
+                                    <div class="skill-elem right"> <img src="./img/logo/unity.png" width="50px"></div>
+                                    <div class="skill-elem right">Unity(2D)</div>
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:90%"></div>
+                                </div>
+                            </div>
+
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+
+                                    <div class="skill-elem right"> <img src="./img/logo/git.png" width="50px"></div>
+                                    <div class="skill-elem right">Git</div>
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+                                    <div class="skill-elem right"> <img src="./img/logo/heroku.png" width="50px"></div>
+                                    <div class="skill-elem right">Heroku</div>
+
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+                                    <div class="skill-elem right"> <img src="./img/logo/uipath.png" width="50px"></div>
+                                    <div class="skill-elem right">UIPath</div>
+
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:80%"></div>
+                                </div>
+                            </div>
+
+                            <div class ="skill-main">
+                                <div class="skill-holder skill-elem">
+                                    <div class="skill-elem right"> <img src="./img/logo/photoshop.png" width="50px"></div>
+                                    <div class="skill-elem right">Photoshop</div>
+
+                                </div>
+                                <div class="skill-elem new-bar">
+                                    <div class="new-bar-progress" style="width:70%"></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- End banner Area -->	
+            <!--Tools section end-->
 
-        <!-- Start home-about Area -->
-        <section class="home-about-area section-gap">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
+        </div>
+        <!-- Hero section end -->
 
 
+
+        <!-- Footer Section -->
+        <footer class="footer-section">
+            <div class="footer-info">
+                <div class="footer-elem"><img src="img/profile-pic.png"></div>
+                <div class="footer-elem">
+                    <h6>Contact</h6>
+                    <ul>
+                        <li><i class="fa fa-phone"></i> +65 81894490</li>
+                        <li><a href="mailto:moud@engineer.com?Subject=Hello" target="_blank"><i class="fa fa-envelope"></i> moud@engineer.com</a></li>
+                    </ul>
                 </div>
+            </div>
+        </footer>
+        <!-- Footer Section end-->
 
-                <h1>SKILLS AND PROFICIENCY</h1>	
-
-                <div class="row skillbar-wraps">		
-                    <!--lang-->
-                    <div class="col-lg-6 skill-left">
-                        <h4 class="pt-30">Computing Languages</h4>
-                        <div class="single-skill">
-                            <p>
-                                Java (Proficient)
-                            </p>
-                            <div class="skill" data-width="100"></div>
-                        </div>
-                        <div class="single-skill">
-                            <p>
-                                Python (Proficient)
-                            </p>
-                            <div class="skill" data-width="100"></div>
-                        </div>
-                        <div class="single-skill">
-                            <p>
-                                C# (Proficient)
-                            </p>
-                            <div class="skill" data-width="90"></div>
-                        </div>
-                        
-                        <div class="single-skill">
-                            <p>
-                                Swift (Competent)
-                            </p>
-                            <div class="skill" data-width="80"></div>
-                        </div>
-                        
-                    </div>
-                    
-                    <!--web-->
-                    <div class="col-lg-6 skill-left">
-                        <h4 class="pt-30">Web Development</h4>
-                        <div class="single-skill">
-                            <p>
-                                HTML (Proficient)
-                            </p>
-                            <div class="skill" data-width="100"></div>
-                        </div>
-                        <div class="single-skill">
-                            <p>
-                                CSS (Proficient)
-                            </p>
-                            <div class="skill" data-width="90"></div>
-                        </div>
-                        <div class="single-skill">
-                            <p>
-                                Javascript (Competent)
-                            </p>
-                            <div class="skill" data-width="80"></div>
-                        </div>
-                        <div class="single-skill">
-                            <p>
-                                Flask : Python Web Framework (Proficient)
-                            </p>
-                            <div class="skill" data-width="85"></div>
-                        </div>
-                        
-                        <div class="single-skill">
-                            <p>
-                                SQL, MySQL (Proficient)
-                            </p>
-                            <div class="skill" data-width="90"></div>
-                        </div>
-                        
-                    </div>
-                    
-                    <!--tools-->
-                    <div class="col-lg-6 skill-right">
-                        <h4 class="pt-30">Tools</h4>
-                        <div class="single-skill">
-                            <p>
-                                XCode (Competent)
-                            </p>
-                            <div class="skill" data-width="85"></div>
-                        </div>								
-                        <div class="single-skill">
-                            <p>
-                                Unity, 2D (Proficient)
-                            </p>
-                            <div class="skill" data-width="90"></div>
-                        </div>
-                        
-                        <div class="single-skill">
-                            <p>
-                                Processing (Proficient)
-                            </p>
-                            <div class="skill" data-width="90"></div>
-                        </div>
-
-                    </div>
-                    
-                    <!--others-->
-                    <div class="col-lg-6 skill-right">
-                        <h4 class="pt-30">Others</h4>
-                        <div class="single-skill">
-                            <p>
-                                Photshop (Competent)
-                            </p>
-                            <div class="skill" data-width="80"></div>
-                        </div>								
-                        
-
-                    </div>
-                </div>
-            </div>	
-        </section>
-        <!-- End home-about Area -->	
-
-
-        <!-- End footer Area -->		
-
-        <script src="js/vendor/jquery-2.2.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/vendor/bootstrap.min.js"></script>			
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
-        <script src="js/easing.min.js"></script>			
-        <script src="js/hoverIntent.js"></script>
-        <script src="js/superfish.min.js"></script>	
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>	
-        <script src="js/jquery.tabs.min.js"></script>						
-        <script src="js/jquery.nice-select.min.js"></script>	
-        <script src="js/isotope.pkgd.min.js"></script>			
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/simple-skillbar.js"></script>							
-        <script src="js/owl.carousel.min.js"></script>							
-        <script src="js/mail-script.js"></script>	
+        <!--====== Javascripts & Jquery ======-->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/masonry.pkgd.min.js"></script>
+        <script src="js/fullpage.min.js"></script>
         <script src="js/main.js"></script>
 
 
