@@ -762,7 +762,7 @@ Home page 2
 }
 
 .skill-holder{
-    width:160px;
+    width:140px;
     display:inline-block;
 }
 
@@ -777,8 +777,9 @@ Home page 2
 
 }
 .right {
-    float:right;
+    float: right;
     line-height: 52px;
+    font-size: 14px;
 
 }
 
