@@ -59,60 +59,6 @@ $(window).on('load', function() {
 	});
 
 
-	/*------------------
-		Hero Slider
-	--------------------*/
-	var hero_s = $(".hero-slider");
-    hero_s.owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: true,
-        items: 1,
-        dots: false,
-        animateOut: 'fadeOut',
-    	animateIn: 'fadeIn',
-        navText: ['', '<img src="img/icons/arrow-right.png" alt="">'],
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: false,
-        onInitialized: function() {
-        	var a = this.items().length;
-            $("#snh-1").html("<span>1</span>/<span>" + a + "</span>");
-        }
-    }).on("changed.owl.carousel", function(a) {
-        var b = --a.item.index, a = a.item.count;
-    	$("#snh-1").html("<span> "+ (1 > b ? b + a : b > a ? b - a : b) + "</span>/<span>" + a + "</span>");
-	});
-	
-
-	/*------------------
-		Portfolio Slider
-	--------------------*/
-	$('.portfolio-slider').owlCarousel({
-        loop: true,
-        margin: 0,
-		dots: false,
-		margin: 0,
-		nav:true,
-		center: true,
-		startPosition: 1,
-		navText: ['', '<img src="img/icons/arrow-right.png" alt="">'],
-		responsive : {
-			0 : {
-				items: 1
-			},
-			480 : {
-				items: 3
-			}
-		},
-		onInitialized: function() {
-        	var a = this.items().length;
-            $("#snh-1").html("<span>2</span>/<span>" + a + "</span>");
-        }
-    }).on("changed.owl.carousel", function(a) {
-        var b = --a.item.index, a = a.item.count;
-    	$("#snh-1").html("<span> "+ (1 > b ? b + a : b > a ? b - a : b) + "</span>/<span>" + a + "</span>");
-	});
 	
 
 	/*----------------------
