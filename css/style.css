@@ -43,7 +43,8 @@ Created:
 html,
 body {
     height: 100%;
-    font-family:"Lemonada",cursive;
+    font-family:"Lemonada";
+
     /*    font-family: "Montserrat", sans-serif;*/
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
@@ -582,7 +583,7 @@ Commom elements
 
 .footer-section {
     background-color: #111b27;
-    padding: 0px 20px;
+    padding: 20px 20px;
 }
 
 .footer-about {
@@ -1236,7 +1237,7 @@ Contact Page
 .newclass{
     text-align: left;
     display:inline-block;
-    padding:25px 0px;
+    padding:5px 0px;
 }
 
 /*footer*/
@@ -1610,7 +1611,7 @@ Contact Page
         font-size: 22px;
         border: 1px solid #8c8c8c;
         border-radius: 0%;
-        padding-top: 3px;
+        padding-top: 5px;
         cursor: pointer;
     }
     .header-default-bg {
@@ -1750,6 +1751,19 @@ Contact Page
 
 @media only screen and (max-width: 479px) {
 
+
+    .nav-switch i{
+        font-size:6.5vw;  
+    }
+
+    .header-social a i{
+        font-size:6vw;
+    }
+
+    .hero-section-2{
+        min-height:900px;    
+    }
+
     h4 {
         font-size: 20px;
     }
@@ -1757,6 +1771,7 @@ Contact Page
     .testimonial-section .hero-content h2 {
         font-size: 26px;
     }
+
     .skills-header h2 {
         font-size: 26px;
         text-align: left;
@@ -1773,7 +1788,7 @@ Contact Page
     }
 
     .testimonial-content .skills-header {
-        padding: 70px 50px 0px;
+        padding: 70px 0px 0px;
     }
 
     .testimonial-section {
@@ -1783,45 +1798,61 @@ Contact Page
         font-size: 25px;
     }
 
-    .footer-info h6 {
-        color: #fff;
-        text-transform: uppercase;
-        margin-bottom: 8px;
-        font-weight: 500;
-        letter-spacing: 3px;
-    }
-
-    .footer-info ul li{
-        font-size:11px;
-        margin-bottom: 5px;
-    }
-
-    .footer-elem img{
-        width:85px;
-    }
 
     .head-section .skills-header{
         padding: 115px 35px 0px;
     }
 
     .hero-section-2 {
-        padding: 110px 30px 15px;
+        padding: 60px 20px 15px;
+    }
+
+    .hs-item span {
+        font-size: 5.5vw;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     .hs-item h2 {
-        font-size: 26px;
+        font-size: 8vw;
         padding-top: 0px;
         margin-bottom: 0px;
     }
 
     .hs-item p {
-        font-size: 12px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        font-size: 4.5vw;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     h3{
-        font-size: 20px;
+        font-size: 9vw;
+    }
+
+
+    .hero-content{
+        padding:80px 0px;
+    }
+
+    .testimonial-content .hero-content{
+        padding:20px 0px;
+    }
+
+    .head-section .testimonial-content {
+        padding: 40px 15px;
+    }
+
+
+    .sp-container .hero-content h2 {
+        font-size: 8vw;
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .sp-container .hero-content p {
+        font-size: 4.5vw;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .portfolio-intro {
@@ -1881,7 +1912,29 @@ Contact Page
 
     .footer-section {
         background-color: #111b27;
-        padding: 15px 20px;
+        padding: 45px 10px;
+    }
+
+    .footer-info h6 {
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        font-weight: 500;
+        letter-spacing: 3px;
+        font-size:4.5vw;
+    }
+
+    .footer-info ul li{
+        font-size:4vw;
+        margin-bottom: 5px;
+    }
+
+    .footer-elem{
+        margin:5px;
+    }
+
+    .footer-elem img{
+        width:125px;
     }
 }
 
