@@ -34,18 +34,17 @@ Created:
 /*----------------------------------------*/
 
 @font-face {
-    font-family: "BickhamScriptPro-Regular";
-    src: url("../fonts/BickhamScriptPro-Regular.woff") format("woff"), url("../fonts/BickhamScriptPro-Regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
+   font-family: "Lemonada";
+    src: url("../fonts/lemonada-webfont.woff") format("woff"), url("../fonts/lemonada-webfont.woff2") format("woff2");
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
 html,
 body {
     height: 100%;
-    font-family:"Lemonada";
-
-    /*    font-family: "Montserrat", sans-serif;*/
+     font-family: "Lemonada";
+    src: url("../fonts/lemonada-webfont.woff") format("woff"), url("../fonts/lemonada-webfont.woff2") format("woff2");
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
