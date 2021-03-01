@@ -2167,6 +2167,8 @@ Contact Page
 .hero-panel--video picture{
   display:none;
 }
+
+
 .hero-panel--video .hero-panel__inner{
   padding-bottom:56.5%;
 }
@@ -2178,6 +2180,7 @@ Contact Page
   height:100%;
   z-index:-1;
 }
+
 @media (max-width:37.4375em){
   .hero-panel--video picture{
     display:block;
@@ -2204,9 +2207,7 @@ Contact Page
 }
 
 
-
 /* Bar */
-
 
 .skills-widget:not(:last-child) {
     margin-bottom: 20px;
@@ -2244,8 +2245,6 @@ Contact Page
     -o-transition: width 1s ease-in-out;
     transition: width 1s ease-in-out;
 }
-
-
 
 .skills-progress-text {
     -webkit-box-flex: 1;
