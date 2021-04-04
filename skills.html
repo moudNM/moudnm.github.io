@@ -20,10 +20,8 @@
   <link rel="stylesheet" href="css/style.css" />
 
 
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/myscript.js"></script>
 
 </head>
 
@@ -68,105 +66,137 @@
     <!-- Header Section end-->
 
     <!-- Main section -->
+    <!-- Main section -->
     <main id="main">
       <div class="main-region">
         <!-- <div class="section fp-auto-height" id="hero-section"> -->
         <div id="frame_hero">
           <section class="hero-panel hero-panel--text-left  hero-panel--has-text hero-panel--image">
-            <div class="hero-panel__inner">
-              <picture>
-                <source media="(max-width: 0px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 3x" />
-                <source media="(max-width: 0px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 3x" />
-                <source media="(max-width: 480px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 2x" />
-                <source media="(max-width: 480px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 2x" />
-                <source media="(max-width: 960px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 1.5x" />
-                <source media="(max-width: 960px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 1.5x" />
-                <source media="(max-width: 1600px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 1x" />
-                <source media="(max-width: 1600px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 1x" />
-                <img src="./img/bg-img/b1.png">
-              </picture>
-              <div class="text-wrapper--absolute">
+            <div class="hero-panel__inner background-col">
+              <div class="text-wrapper">
 
                 <div class="sp-container">
                   <div class="hero-content text-white">
+
                     <div class="skills-header">
-                      <h2>Computing Languages</h2>
-
-
-                    </div>
-
-                    <!-- Start of bar section -->
-                    <div class="bars" data-element_type="column">
-                      <div class="skills-element">
-
-                        <!-- individual bars -->
-                        <div class="skills-barItem">
-                          <div class="skills-widget-container">
-                            <img src="./img/logo/java.png">
-                            <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
-                              <div class="skills-progress-bar" data-max="50" style="width: 100%;">
-                                <span class="skills-progress-text">Java</span>
-                                <span class="skills-progress-percentage">100%</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- individual bars -->
-                        <div class="skills-barItem">
-                          <div class="skills-widget-container">
-                            <img src="./img/logo/python.png">
-                            <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
-                              <div class="skills-progress-bar" data-max="50" style="width: 100%;">
-                                <span class="skills-progress-text">Python</span>
-                                <span class="skills-progress-percentage">100%</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- individual bars -->
-                        <div class="skills-barItem">
-                          <div class="skills-widget-container">
-                            <img src="./img/logo/c-sharp.png">
-                            <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
-                              <div class="skills-progress-bar" data-max="50" style="width: 90%;">
-                                <span class="skills-progress-text">C#</span>
-                                <span class="skills-progress-percentage">90%</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!-- individual bars -->
-                        <div class="skills-barItem">
-                          <div class="skills-widget-container">
-                            <img src="./img/logo/swift.png">
-                            <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
-                              <div class="skills-progress-bar" data-max="50" style="width: 75%;">
-                                <span class="skills-progress-text">Swift</span>
-                                <span class="skills-progress-percentage">75%</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
+                      <h2>Skills</h2>
+                      <div class=underline-bar>
                       </div>
                     </div>
-                    <!-- End of bar section -->
 
+                    <!-- Languages -->
+                    <div class="sp-container">
+                      <div class="hero-content text-white">
+                        <div class=hero-padding>
+                          <div class="text-header2 element-box-center">
+                            <h2>Computing Languages</h2>
+                          </div>
+                          <div class="element-box-parent">
+                            <div class="element-box-skills">
+                              <div class="element-box2">
+                                <img src="./img/logo/java.png">
+                                <h5>Java</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/c-sharp.png">
+                                <h5>C Sharp</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/python.png">
+                                <h5>Python</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/swift.png">
+                                <h5>Swift</h5>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <!-- End of topic -->
+
+                    <!-- Data -->
+                    <div class="sp-container">
+                      <div class="hero-content text-white">
+                        <div class=hero-padding>
+                          <div class="text-header2 element-box-center">
+                            <h2>Data</h2>
+                          </div>
+                          <!-- Python -->
+                          <div class="element-box-parent">
+                            <div class="element-box-skills">
+                              <div class="element-box2">
+                                <img src="./img/logo/python.png">
+                                <h5>Python</h5>
+                              </div>
+                              <div class="element-box2b">
+                                <img src="./img/logo/pandas.png">
+                                <h5>Pandas</h5>
+                              </div>
+                              <div class="element-box2b">
+                                <img src="./img/logo/numpy.png">
+                                <h5>Numpy</h5>
+                              </div>
+                              <div class="element-box2b">
+                                <img src="./img/logo/tensorflow.png">
+                                <h5>Tensorflow</h5>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Big Data -->
+                          <div class="element-box-parent">
+                            <div class="element-box-skills">
+                              <div class="element-box2">
+                                <img src="./img/logo/java.png">
+                                <h5>Java</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/hadoop.png">
+                                <h5>Hadoop</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/hive.png">
+                                <h5>Hive</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/spark.png">
+                                <h5>Spark</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/kafka.png">
+                                <h5>Kafka</h5>
+                              </div>
+                            </div>
+                          </div>
+
+                          <!-- Sql -->
+                          <div class="element-box-parent">
+                            <div class="element-box-skills">
+                              <div class="element-box2">
+                                <img src="./img/logo/mysql.png">
+                                <h5>MySql</h5>
+                              </div>
+                              <div class="element-box2">
+                                <img src="./img/logo/mssql.png">
+                                <h5>MSSQL</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- End of topic -->
+
+                        </div>
+                      </div>
+
+                    </div>
                   </div>
-                </div>
-
-              </div>
-            </div>
           </section>
         </div>
       </div>
     </main>
     <!-- Hero section end -->
-
-    <!-- </div> -->
 
 
     <!-- Footer Section -->

@@ -1,0 +1,73 @@
+<picture>
+  <source media="(max-width: 0px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 3x" />
+  <source media="(max-width: 0px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 3x" />
+  <source media="(max-width: 480px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 2x" />
+  <source media="(max-width: 480px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 2x" />
+  <source media="(max-width: 960px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 1.5x" />
+  <source media="(max-width: 960px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 1.5x" />
+  <source media="(max-width: 1600px) and (orientation: landscape)" srcset="./img/bg-img/b1.png 1x" />
+  <source media="(max-width: 1600px) and (orientation: portrait)" srcset="./img/bg-img/b1w.png 1x" />
+  <img src="./img/bg-img/b1.png">
+</picture>
+
+
+
+<!-- Start of bar section -->
+<div class="bars" data-element_type="column">
+  <div class="skills-element">
+
+    <!-- individual bars -->
+    <div class="skills-barItem">
+      <div class="skills-widget-container">
+        <img src="./img/logo/java.png">
+        <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
+          <div class="skills-progress-bar" data-max="50" style="width: 100%;">
+            <span class="skills-progress-text">Java</span>
+            <span class="skills-progress-percentage">100%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- individual bars -->
+    <div class="skills-barItem">
+      <div class="skills-widget-container">
+        <img src="./img/logo/python.png">
+        <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
+          <div class="skills-progress-bar" data-max="50" style="width: 100%;">
+            <span class="skills-progress-text">Python</span>
+            <span class="skills-progress-percentage">100%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- individual bars -->
+    <div class="skills-barItem">
+      <div class="skills-widget-container">
+        <img src="./img/logo/c-sharp.png">
+        <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
+          <div class="skills-progress-bar" data-max="50" style="width: 90%;">
+            <span class="skills-progress-text">C#</span>
+            <span class="skills-progress-percentage">90%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- individual bars -->
+    <div class="skills-barItem">
+      <div class="skills-widget-container">
+        <img src="./img/logo/swift.png">
+        <div class="skills-progress-wrapper" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-valuetext="Java">
+          <div class="skills-progress-bar" data-max="50" style="width: 75%;">
+            <span class="skills-progress-text">Swift</span>
+            <span class="skills-progress-percentage">75%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- End of bar section -->
