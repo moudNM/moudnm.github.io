@@ -140,10 +140,11 @@ ol {
 .text-white h6,
 .text-white p,
 .text-white span,
-.text-white li,
-.text-white a {
+.text-white li{
     color: #fff;
 }
+/* ,
+.text-white a  */
 
 /*---------------------
 Commom elements
@@ -1176,13 +1177,6 @@ Contact Page
 
 
 /*misc*/
-.container img{
-    display:block;
-    margin:auto;
-    border-radius: 50%;
-    padding:5px;
-}
-
 .text-white p{
 
     max-width: 750px;
@@ -1222,23 +1216,31 @@ Contact Page
 }
 
 .blog-det {
-    display: block;
-    margin-right: 13px;
-    padding-right: 13px;
+    display: none;
     padding-bottom: 20px;
     color: #565656;
     font-weight: 50;
-    position: relative;
+    left: 0;
+    position: absolute;
+    top: 10%;
+    width: 100%;
 }
 
-.blog-det .blog-det1 {
+.blog-det .blog-title h2 {
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 100;
+    /* position: relative; */
+}
+
+.blog-det .blog-header1 {
     font-size: 1rem;
     color: #565656;
     font-weight: 100;
     position: relative;
 }
 
-.blog-det .blog-det2 {
+.blog-det .blog-header2 {
     font-size: 0.75rem;
     font-style: italic;
     color: #c912b3;
@@ -1246,8 +1248,70 @@ Contact Page
     position: relative;
 }
 
+
+
+/* bg images */
 .blog-bg{
-  /* background: url("../img/projects/p1.jpg"); */
+  background: none;
+}
+
+.row-grid-item:nth-child(1) .blog-bg {
+    background: url("../img/projects/p1.png") center center/cover;
+}
+
+.row-grid-item:nth-child(2) .blog-bg {
+    background: url("../img/projects/p2.png") center center/cover;
+}
+
+.row-grid-item:nth-child(3) .blog-bg {
+    background: url("../img/projects/p3.png") center center/cover;
+}
+
+.row-grid-item:nth-child(4) .blog-bg {
+    background: url("../img/projects/p4.png") center center/cover;
+}
+
+.row-grid-item:nth-child(5) .blog-bg {
+    background: url("../img/projects/p5.png") center center/cover;
+}
+
+.row-grid-item:nth-child(6) .blog-bg {
+    background: url("../img/projects/p6.png") center center/cover;
+}
+
+.blog-bg2{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255, .8);
+  position: absolute;
+}
+
+.blog-link{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255, .8);
+  position: absolute;
+}
+
+.blog-button{
+    display: none;
+    bottom: 10%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    border: 2px solid #e31b6d;
+    color: black;
+    font-size: 13pt;
+    margin: 0 auto;
+    padding: 7px 0;
+    width: 170px;
+}
+
+/* to remove */
+.blog-button.a{
+  color:black;
 }
 
 .button-pad{
@@ -1290,14 +1354,12 @@ Contact Page
 
 .grid-item {
     background-color: rgba(200, 100, 25, 0.85);
-    padding: 20px;
+    padding: 0px;
     font-size: 30px;
     text-align: center;
     display:inline-block;
-    /* border-radius: 2.5%; */
     vertical-align: middle;
-    height:450px;
-    /* margin: 5px; */
+    float:left;
 }
 
 .grid-item:hover{
@@ -1307,7 +1369,7 @@ Contact Page
 
 .grid-item h2{
     font-size: 1.35rem !important;
-    margin:10px 0px;
+    /* margin:10px 0px; */
 }
 
 .grid-item h3{
@@ -1320,10 +1382,15 @@ Contact Page
 
 }
 
+.grid-item-pad{
+    padding: 33% 0%;
+}
+
 .row-grid{
     position: relative;
     height: auto;
-
+    overflow: auto;
+    min-height: 50vw;
 }
 
 .contact-container {
@@ -1905,7 +1972,7 @@ Contact Page
 }
 
 .background-img{
-  background: url("../img/bg-img/b1.png");
+  background: url("../img/bg-img/b1.png") center center/cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2137,7 +2204,7 @@ Contact Page
 .text-wrapper {
     position:relative;
     max-width: 100vw;
-    margin: 10vw;
+    margin: 10vw 6vw;
 }
 
 
@@ -2357,4 +2424,15 @@ Contact Page
     display: inline-block;
 }
 
-/* http://findmatthew.com/scripts/modal.js */
+/* filter */
+.filterDiv{
+  display: none;
+}
+
+.filterDiv.show {
+  display: inline-block;
+}
+
+.filterSelection.active{
+  background: red;
+}
