@@ -4,9 +4,6 @@
 1025px — 1200px: Desktops, large screens
 1201px and more —  Extra large screens, TV */
 
-
-/* for all pages */
-
 /* set bg image or color */
 .background-img{
   background: url("../img/bg-img/b1.png") center center/cover;
@@ -40,14 +37,38 @@
 .overflow{
   position:relative;
   overflow:hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+/* Menu bar */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
+a {
+	color: #007bff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.text-white {
+	color: #fff!important
+}
+
+.hamburger{
+  display: none;
+}
 
 /* Index page */
 .page-index {
-  padding:3vw 0vw;
+  padding:2vw 0vw;
   width: 52%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.button-panel{
+  padding:.5vw;
 }
